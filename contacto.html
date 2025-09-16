@@ -2,10 +2,34 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <title>Contacto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="post">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <br>
+        <label for="correo">Correo: </label>
+        <input type="text" id="correo" name="correo" requiered>
+        <br>
+        <br>
+        <label for="comentario">Comentario: </label>
+        <br>
+        <textarea name="comentario" id="comentario"></textarea>
+        <br>
+        <br>
+        <label for="clasificacion">Clasificación: </label>
+        <select name="clasificacion" id="clasificacion"></select>
+        <option value="contratacion">Contratación</option>
+        <option value="personal">Personal</option>
+        <option value="cliente">Cliente</option>
+        <option value="otro">Otro</option>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
